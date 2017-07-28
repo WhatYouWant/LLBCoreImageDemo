@@ -24,5 +24,8 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(ProcessingImagesViewController(), animated: true)
     }
 
+    @IBAction func demo02Action(_ sender: UIButton) {
+        navigationController?.pushViewController(CoreImageDemo02ViewController(), animated: true)
+    }
 }
 
