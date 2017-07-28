@@ -42,7 +42,7 @@ class CoreImageDemo02ViewController: UIViewController {
             make.width.equalTo(75);
             make.height.equalTo(75);
         }
-        
+        /*
         let imageView3 = UIImageView.init(image: UIImage.init(ciImage: blurFilterChain(to: ciImage!)))
         view.addSubview(imageView3)
         imageView3.snp.makeConstraints { (make) in
@@ -51,7 +51,7 @@ class CoreImageDemo02ViewController: UIViewController {
             make.width.equalTo(75);
             make.height.equalTo(75);
         }
-        
+        */
         
     }
     
