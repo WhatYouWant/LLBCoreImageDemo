@@ -29,6 +29,7 @@
 		AECC09C51F2F07C80036354D /* faceDemo02.png in Resources */ = {isa = PBXBuildFile; fileRef = AECC09C41F2F07C80036354D /* faceDemo02.png */; };
 		AECC09C71F2F17880036354D /* faceDarkDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = AECC09C61F2F17880036354D /* faceDarkDemo.png */; };
 		AECC09CA1F2F18910036354D /* AutoEnhanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC09C91F2F18910036354D /* AutoEnhanceViewController.swift */; };
+		AECC09CC1F2F2DD60036354D /* QuerySystemFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC09CB1F2F2DD60036354D /* QuerySystemFilterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		AECC09C41F2F07C80036354D /* faceDemo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceDemo02.png; sourceTree = "<group>"; };
 		AECC09C61F2F17880036354D /* faceDarkDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceDarkDemo.png; sourceTree = "<group>"; };
 		AECC09C91F2F18910036354D /* AutoEnhanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoEnhanceViewController.swift; sourceTree = "<group>"; };
+		AECC09CB1F2F2DD60036354D /* QuerySystemFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuerySystemFilterViewController.swift; sourceTree = "<group>"; };
 		CD21F46195B370CFD1B98069 /* Pods-CoreImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreImageDemo/Pods-CoreImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +152,7 @@
 				AECC09BE1F2ED7BB0036354D /* CoreImageValueChangeController.swift */,
 				AECC09C01F2EFDD70036354D /* DetectorViewController.swift */,
 				AECC09C91F2F18910036354D /* AutoEnhanceViewController.swift */,
+				AECC09CB1F2F2DD60036354D /* QuerySystemFilterViewController.swift */,
 				AECC09BA1F2EC1420036354D /* DemoPlayerLayerView.swift */,
 				AE2104411F2B0F59008536D6 /* Main.storyboard */,
 				AE2104441F2B0F59008536D6 /* Assets.xcassets */,
@@ -396,6 +399,7 @@
 			files = (
 				AECC09C11F2EFDD70036354D /* DetectorViewController.swift in Sources */,
 				AECC09BB1F2EC1420036354D /* DemoPlayerLayerView.swift in Sources */,
+				AECC09CC1F2F2DD60036354D /* QuerySystemFilterViewController.swift in Sources */,
 				AECC09B71F2EBDB40036354D /* CoreImageVideoViewController.swift in Sources */,
 				AE2104721F2B21F1008536D6 /* CoreImageDemo02ViewController.swift in Sources */,
 				AECC09CA1F2F18910036354D /* AutoEnhanceViewController.swift in Sources */,

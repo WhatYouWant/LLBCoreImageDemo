@@ -44,6 +44,11 @@ class ViewController: UIViewController {
         pushToController(AutoEnhanceViewController())
     }
     
+    @IBAction func querySystemFilter(_ sender: UIButton) {
+        pushToController(QuerySystemFilterViewController())
+    }
+    
+    
     
     func pushToController(_ controller: UIViewController) {
         navigationController?.pushViewController(controller, animated: true)

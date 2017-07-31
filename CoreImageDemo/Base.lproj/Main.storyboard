@@ -87,6 +87,15 @@
                                     <action selector="autoEnhanceAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qnJ-7W-l3g"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8x-3I-b3C">
+                                <rect key="frame" x="39" y="284" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="QuerySysFilter"/>
+                                <connections>
+                                    <action selector="querySystemFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0z7-0a-tKi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
