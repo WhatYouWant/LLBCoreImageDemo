@@ -53,6 +53,40 @@
                                     <action selector="demo02Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HBt-Ex-9zd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5x-Mx-mQ1">
+                                <rect key="frame" x="39" y="174" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Demo03"/>
+                                <connections>
+                                    <action selector="demo03Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kll-Uo-710"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfS-kc-Zaa">
+                                <rect key="frame" x="248" y="174" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Demo04"/>
+                                <connections>
+                                    <action selector="demo04Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tjQ-wN-mow"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZn-lj-jeJ">
+                                <rect key="frame" x="39" y="228" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="FaceDetector"/>
+                                <connections>
+                                    <action selector="demo05Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OHx-Xw-1OM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBH-c5-XY3">
+                                <rect key="frame" x="248" y="227" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="AutoEnhance"/>
+                                <connections>
+                                    <action selector="autoEnhanceAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qnJ-7W-l3g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

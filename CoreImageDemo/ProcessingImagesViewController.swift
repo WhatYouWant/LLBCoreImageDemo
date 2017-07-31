@@ -26,7 +26,6 @@ class ProcessingImagesViewController: UIViewController {
 
     func listing1_1BasicFeature() {
         let context = CIContext()
-        
         let itemWidth = 200
         let imageView1 = UIImageView(image: #imageLiteral(resourceName: "pic1.JPG"))
         view.addSubview(imageView1)

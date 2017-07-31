@@ -19,6 +19,16 @@
 		AE21046E1F2B1049008536D6 /* pic1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AE21046D1F2B1049008536D6 /* pic1.JPG */; };
 		AE2104701F2B2147008536D6 /* demoPic.png in Resources */ = {isa = PBXBuildFile; fileRef = AE21046F1F2B2147008536D6 /* demoPic.png */; };
 		AE2104721F2B21F1008536D6 /* CoreImageDemo02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2104711F2B21F1008536D6 /* CoreImageDemo02ViewController.swift */; };
+		AECC09B71F2EBDB40036354D /* CoreImageVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC09B61F2EBDB40036354D /* CoreImageVideoViewController.swift */; };
+		AECC09B91F2EBDF60036354D /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AECC09B81F2EBDF60036354D /* demo.mp4 */; };
+		AECC09BB1F2EC1420036354D /* DemoPlayerLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC09BA1F2EC1420036354D /* DemoPlayerLayerView.swift */; };
+		AECC09BD1F2ECBFC0036354D /* demo02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AECC09BC1F2ECBFC0036354D /* demo02.mp4 */; };
+		AECC09BF1F2ED7BB0036354D /* CoreImageValueChangeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC09BE1F2ED7BB0036354D /* CoreImageValueChangeController.swift */; };
+		AECC09C11F2EFDD70036354D /* DetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC09C01F2EFDD70036354D /* DetectorViewController.swift */; };
+		AECC09C31F2EFEF50036354D /* demoFace.png in Resources */ = {isa = PBXBuildFile; fileRef = AECC09C21F2EFEF50036354D /* demoFace.png */; };
+		AECC09C51F2F07C80036354D /* faceDemo02.png in Resources */ = {isa = PBXBuildFile; fileRef = AECC09C41F2F07C80036354D /* faceDemo02.png */; };
+		AECC09C71F2F17880036354D /* faceDarkDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = AECC09C61F2F17880036354D /* faceDarkDemo.png */; };
+		AECC09CA1F2F18910036354D /* AutoEnhanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC09C91F2F18910036354D /* AutoEnhanceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +68,16 @@
 		AE21046D1F2B1049008536D6 /* pic1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.JPG; sourceTree = "<group>"; };
 		AE21046F1F2B2147008536D6 /* demoPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoPic.png; sourceTree = "<group>"; };
 		AE2104711F2B21F1008536D6 /* CoreImageDemo02ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreImageDemo02ViewController.swift; sourceTree = "<group>"; };
+		AECC09B61F2EBDB40036354D /* CoreImageVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreImageVideoViewController.swift; sourceTree = "<group>"; };
+		AECC09B81F2EBDF60036354D /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
+		AECC09BA1F2EC1420036354D /* DemoPlayerLayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPlayerLayerView.swift; sourceTree = "<group>"; };
+		AECC09BC1F2ECBFC0036354D /* demo02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo02.mp4; sourceTree = "<group>"; };
+		AECC09BE1F2ED7BB0036354D /* CoreImageValueChangeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreImageValueChangeController.swift; sourceTree = "<group>"; };
+		AECC09C01F2EFDD70036354D /* DetectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectorViewController.swift; sourceTree = "<group>"; };
+		AECC09C21F2EFEF50036354D /* demoFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoFace.png; sourceTree = "<group>"; };
+		AECC09C41F2F07C80036354D /* faceDemo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceDemo02.png; sourceTree = "<group>"; };
+		AECC09C61F2F17880036354D /* faceDarkDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceDarkDemo.png; sourceTree = "<group>"; };
+		AECC09C91F2F18910036354D /* AutoEnhanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoEnhanceViewController.swift; sourceTree = "<group>"; };
 		CD21F46195B370CFD1B98069 /* Pods-CoreImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreImageDemo/Pods-CoreImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,12 +141,16 @@
 		AE21043C1F2B0F59008536D6 /* CoreImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AECC09C81F2F178A0036354D /* Resource */,
 				AE21043D1F2B0F59008536D6 /* AppDelegate.swift */,
 				AE21043F1F2B0F59008536D6 /* ViewController.swift */,
 				AE21046B1F2B0F8B008536D6 /* ProcessingImagesViewController.swift */,
 				AE2104711F2B21F1008536D6 /* CoreImageDemo02ViewController.swift */,
-				AE21046D1F2B1049008536D6 /* pic1.JPG */,
-				AE21046F1F2B2147008536D6 /* demoPic.png */,
+				AECC09B61F2EBDB40036354D /* CoreImageVideoViewController.swift */,
+				AECC09BE1F2ED7BB0036354D /* CoreImageValueChangeController.swift */,
+				AECC09C01F2EFDD70036354D /* DetectorViewController.swift */,
+				AECC09C91F2F18910036354D /* AutoEnhanceViewController.swift */,
+				AECC09BA1F2EC1420036354D /* DemoPlayerLayerView.swift */,
 				AE2104411F2B0F59008536D6 /* Main.storyboard */,
 				AE2104441F2B0F59008536D6 /* Assets.xcassets */,
 				AE2104461F2B0F59008536D6 /* LaunchScreen.storyboard */,
@@ -151,6 +175,20 @@
 				AE21045F1F2B0F59008536D6 /* Info.plist */,
 			);
 			path = CoreImageDemoUITests;
+			sourceTree = "<group>";
+		};
+		AECC09C81F2F178A0036354D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AECC09C41F2F07C80036354D /* faceDemo02.png */,
+				AE21046D1F2B1049008536D6 /* pic1.JPG */,
+				AECC09C61F2F17880036354D /* faceDarkDemo.png */,
+				AE21046F1F2B2147008536D6 /* demoPic.png */,
+				AECC09C21F2EFEF50036354D /* demoFace.png */,
+				AECC09B81F2EBDF60036354D /* demo.mp4 */,
+				AECC09BC1F2ECBFC0036354D /* demo02.mp4 */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		D3FCABE54A8EE5DB2F287E8D /* Frameworks */ = {
@@ -274,10 +312,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECC09BD1F2ECBFC0036354D /* demo02.mp4 in Resources */,
 				AE2104701F2B2147008536D6 /* demoPic.png in Resources */,
 				AE21046E1F2B1049008536D6 /* pic1.JPG in Resources */,
+				AECC09C31F2EFEF50036354D /* demoFace.png in Resources */,
 				AE2104481F2B0F59008536D6 /* LaunchScreen.storyboard in Resources */,
+				AECC09B91F2EBDF60036354D /* demo.mp4 in Resources */,
 				AE2104451F2B0F59008536D6 /* Assets.xcassets in Resources */,
+				AECC09C71F2F17880036354D /* faceDarkDemo.png in Resources */,
+				AECC09C51F2F07C80036354D /* faceDemo02.png in Resources */,
 				AE2104431F2B0F59008536D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,9 +394,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECC09C11F2EFDD70036354D /* DetectorViewController.swift in Sources */,
+				AECC09BB1F2EC1420036354D /* DemoPlayerLayerView.swift in Sources */,
+				AECC09B71F2EBDB40036354D /* CoreImageVideoViewController.swift in Sources */,
 				AE2104721F2B21F1008536D6 /* CoreImageDemo02ViewController.swift in Sources */,
+				AECC09CA1F2F18910036354D /* AutoEnhanceViewController.swift in Sources */,
 				AE2104401F2B0F59008536D6 /* ViewController.swift in Sources */,
 				AE21043E1F2B0F59008536D6 /* AppDelegate.swift in Sources */,
+				AECC09BF1F2ED7BB0036354D /* CoreImageValueChangeController.swift in Sources */,
 				AE21046C1F2B0F8B008536D6 /* ProcessingImagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

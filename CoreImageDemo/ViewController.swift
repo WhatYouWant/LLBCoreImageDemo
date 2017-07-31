@@ -27,5 +27,28 @@ class ViewController: UIViewController {
     @IBAction func demo02Action(_ sender: UIButton) {
         navigationController?.pushViewController(CoreImageDemo02ViewController(), animated: true)
     }
+    
+    @IBAction func demo03Action(_ sender: UIButton) {
+        navigationController?.pushViewController(CoreImageVideoViewController(), animated: true)
+    }
+    
+    @IBAction func demo04Action(_ sender: UIButton) {
+        navigationController?.pushViewController(CoreImageValueChangeController(), animated: true)
+    }
+    
+    @IBAction func demo05Action(_ sender: UIButton) {
+        pushToController(DetectorViewController())
+    }
+    
+    @IBAction func autoEnhanceAction(_ sender: UIButton) {
+        pushToController(AutoEnhanceViewController())
+    }
+    
+    
+    func pushToController(_ controller: UIViewController) {
+        navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    
 }
 
